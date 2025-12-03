@@ -1,14 +1,14 @@
-# **Spotify → MP3 Downloader**
+# **MP3 Downloader**
 
-![Spotify Downloader](screenshots/screenshot.png)
+![MP3Downloader](screenshots/screenshot.png)
 
-**Spotify → MP3 Downloader** es una aplicación de escritorio para Windows y Linux que te permite descargar playlists de Spotify como archivos MP3, con portada y metadatos, usando YouTube como fuente de audio.
+**MP3 Downloader** es una aplicación de escritorio para Windows y Linux que te permite descargar playlists de Spotify como archivos MP3, con portada y metadatos, usando YouTube como fuente de audio.
 
-### **Nota: Requiere tener claves en [spotify developers](https://developer.spotify.com/) para descargar las canciones.**
+### **Nota: Requiere tener claves en [developers](https://developer.spotify.com/) para descargar las canciones.**
 
 ## **Características**
 
-* Descarga playlists completas de Spotify.  
+* Descarga playlists completas  
 * Convierte automáticamente a MP3 con metadatos y portada.  
 * Vista previa de la canción actual y progreso de descarga.  
 * Soporte para Windows y Linux.  
@@ -25,14 +25,14 @@
   * `yt_dlp`  
   * `Pillow`  
   * `requests`  
-* Conexión a Internet para descargas y autenticación de Spotify.
+* Conexión a Internet para descargas y autenticación.
 
 ## **Instalación**
 
 ### **Opción 1: Ejecutar con Python**
 
 ```bash
-git clone https://github.com/Lil-Carpi/spotify-to-mp3.git
+git clone https://github.com/Lil-Carpi/MP3Downloader.git
 cd spotify-to-mp3
 pip install -r requirements.txt
 python main.py
@@ -45,7 +45,7 @@ python main.py
 
 ## **Uso**
 
-1. Introduce tu **Client ID** y **Client Secret** de Spotify.  
+1. Introduce tu **Client ID** y **Client Secret**  
 2. Pega el enlace de la playlist que quieras descargar.  
 3. Haz clic en **INICIAR DESCARGA**.  
 4. La aplicación descargará cada canción como MP3 en `~/Música` (puedes cambiarlo en el código).
