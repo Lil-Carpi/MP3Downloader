@@ -4,7 +4,7 @@
 
 **Spotify → MP3 Downloader** es una aplicación de escritorio para Windows y Linux que te permite descargar playlists de Spotify como archivos MP3, con portada y metadatos, usando YouTube como fuente de audio.
 
-###**Nota: Requiere tener claves en ![spotify developers](https://developer.spotify.com/) para descargar las canciones.**
+### **Nota: Requiere tener claves en [spotify developers](https://developer.spotify.com/) para descargar las canciones.**
 
 ## **Características**
 
